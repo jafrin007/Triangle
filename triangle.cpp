@@ -12,10 +12,11 @@ class triangle
 }obj1;
 void triangle::checkvalid()
 {	
-      if((a+b>c)&&(a+c>b)&&(b+c>a))
+      if((a+b > c)&&(a+c > b)&&(b+c > a))
       {
       cout<<"VALID\n";
       obj1.area();
+	      
       }
        else
       cout<<"NOT VALID\n";
@@ -33,8 +34,14 @@ void triangle::area()
  ar=sqrt(s*(s-a)(s-b)(s-c));
  cout<<"The area of the triangle is "<<ar;	
 }
+
+void callme()
+{
+	cout << "Hello World" << endl;
+}
 int main()
 { 
 	obj1.display();
+	callme();
 	return(0);	
 }
