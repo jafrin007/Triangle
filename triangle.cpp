@@ -22,7 +22,7 @@ void triangle::checkvalid()
 }
 void triangle::display()
 {
-	cout<<"Enter the sides of the triangle\n";
+	cout<<"Enter sides of the triangle\n";
 	cin>>a>>b>>c;
 	cout<<"The sides of triangle are "<<a<<","<<b<<","<<c<<"\n";
 	obj1.checkvalid();
